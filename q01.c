@@ -29,8 +29,8 @@ int main()
 		{
 		case 1:
 			printf("\nEnter The Element To Insert On Queue: ");
-			scanf("%d", &ele);
-			insert(a, ele);
+			scanf("%d",&ele);
+			insert(a,ele);
 			break;
 		case 2:
 			ele = delete (a);
